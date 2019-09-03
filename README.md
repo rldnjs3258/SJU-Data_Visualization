@@ -1,2 +1,5 @@
 # SJU-Data_Visualization
-Data visualization class in Sejong University
+
+ - This repository includes codes, theories and algorithms about Data visualization.
+
+ - It is What I learned from Data visualization class in Sejong University.
