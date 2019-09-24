@@ -4,7 +4,7 @@
 
  - It is what I learned from Data visualization class in Sejong University.
  
- - Skills : D3.js, R, Python, Javascript, sql, etc...
+ - Skills : D3.js, R, Python, Javascript, sql, Tableau, etc...
 
 <div>
 <img width="280" src="https://user-images.githubusercontent.com/40679567/65499229-43aa4a00-def8-11e9-8c6b-4140f89a4949.png">
