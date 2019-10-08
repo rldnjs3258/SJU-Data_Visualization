@@ -29,18 +29,33 @@
 # 2. 본론
 ## (1) 시각화
 #####  1) Start Station Frequency
+
+<div>
+<img width="580" src="https://user-images.githubusercontent.com/40679567/66417192-6f6e1980-ea3a-11e9-8a39-3ffdcf8d2826.png">
+</div>
+
    - 사람들이 자전거를 타기 시작한 지역 중 가장 높은 빈도수는 Hyde Park Corner, Hyde Park 지역, 15,240회, 런던 중심지와 2.61km 떨어진 지점이었다.
    - 사람들이 자전거를 타기 시작한 지역 중 가장 낮은 빈도수는 Castalia Square, Cubitt Town 지역, 176회, 런던 중심지와 8.26km 떨어진 지점이었다.
 
 <br>
 
 #####  2) End Station Frequency
+
+<div>
+<img width="580" src="https://user-images.githubusercontent.com/40679567/66417197-7137dd00-ea3a-11e9-9b0e-c328aa0bd3b3.png">
+</div>
+
    - 사람들이 자전거를 반납한 지역 중 가장 높은 빈도수는 Hyde Park Corner, Hyde Park 지역, 15,353회, 런던 중심지와 2.61km 떨어진 지점이었다.
    - 사람들이 자전거를 반납한 지역 중 가장 낮은 빈도수는 Grant Road Central, Clapham Junction 지역, 73회, 런던 중심지와 5.65km 떨어진 지점이었다.
 
 <br>
 
 #####  3) Start Station Frequency 3 highs and 3 lows
+
+<div>
+<img width="580" src="https://user-images.githubusercontent.com/40679567/66417201-7301a080-ea3a-11e9-9ba2-c314379dc7fa.png">
+</div>
+
    - 사람들이 자전거를 타기 시작한 지역 중 가장 높은 빈도수는 Hyde Park Corner, Hyde Park 지역, 15,240회, 런던 중심지와 2.61km 떨어진 지점이었다.
    - 사람들이 자전거를 타기 시작한 지역 중 두 번째로 높은 빈도수는 Belgrove Street, King's Cross 지역, 13,086회, 런던 중심지와 2.41km 떨어진 지점이었다.
    - 사람들이 자전거를 타기 시작한 지역 중 세 번째로 높은 빈도수는 Waterloo Station 2, Waterloo 지역, 10,582회, 런던 중심지와 1.15km 떨어진 지점이었다.
@@ -51,6 +66,11 @@
 <br>
 
 ##### 4) End Station Frequency 3 highs and 3 lows
+
+<div>
+<img width="580" src="https://user-images.githubusercontent.com/40679567/66417205-74cb6400-ea3a-11e9-88c0-438f8b3a34cf.png">
+</div>
+
    - 사람들이 자전거를 반납한 지역 중 가장 높은 빈도수는 Hyde Park Corner, Hyde Park 지역, 15,353회, 런던 중심지와 2.61km 떨어진 지점이었다.
    - 사람들이 자전거를 반납한 지역 중 두 번째로 높은 빈도수는 Belgrove Street, King's Cross 지역, 12,826회, 런던 중심지와 2.41km 떨어진 지점이었다.
    - 사람들이 자전거를 반납한 지역 중 세 번째로 높은 빈도수는 Albert Gate, Hyde Park 지역, 10,570회, 런던 중심지와 2.60km 떨어진 지점이었다.
@@ -70,5 +90,5 @@
 <hr>
 <br>
 
-3. 결론
+# 3. 결론
  - 런던의 자전거 공유 시스템은 런던 중심지에서 많이 이용되고, 런던 중심지에서 멀어질수록 이용 빈도가 줄어들었다. 런던의 자전거 쉐어링 이용을 극대화 하려면 런던 중심지에 자전거를 많이 배치하고, 런던 중심지에서 멀어질수록 적게 배치하는 것이 효율적이다.
