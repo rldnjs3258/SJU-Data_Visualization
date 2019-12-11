@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages:['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['X', 'Y'],
+		  [2012,  8494],
+          [2013,  7856],
+          [2014,  8047],
+		  [2015,  7932],
+		  [2016,  6423],
+		  [2017,  5666],
+		  [2018,  4824]
+
+
+        ]);
+
+        var options = {
+          height: 500,
+          legend: 'none',
+          colors: ['#9575cd', '#33ac71'],
+          pointShape: 'diamond',
+          trendlines: {
+            0: {
+              type: 'exponential',
+              pointSize: 20,
+              opacity: 0.6,
+              pointsVisible: false
+            },
+            1: {
+              type: 'linear',
+              pointSize: 10,
+              pointsVisible: true
+            }
+          }
+        };
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div"></div>
+  </body>
+</html>

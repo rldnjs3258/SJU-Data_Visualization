@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'City');
+        data.addColumn('number', 'Accident Count');
+        data.addColumn('boolean', 'Over 3000');
+        data.addRows([
+          ['Seoul',  {f: '14792'}, true],
+['Busan',  {f: '3596'}, true],
+['Daegu',  {f: '5058'}, true],
+['Gwangju',  {f: '1393'},  false],
+['Daejeon',  {f: '1374'},  false],
+['Gyeonggi',  {f: '8704'}, true],
+['Gangwon',  {f: '902'},  false],
+['Jeollanam_do',  {f: '1397'},  false],
+['Gyeongsangbuk_do',  {f: '2263'},  false],
+['Gyeongsangnam_do',  {f: '2226'},  false],
+['Jeju',  {f: '674'},  false],
+['Incheon',  {f: '1724'},  false],
+['Ulsan',  {f: '871'},  false],
+['Chungcheongbuk_do',  {f: '1475'},  false],
+['Chungcheongnam_do',  {f: '1013'},  false],
+['Jeollabuk_do',  {f: '1742'},  false],
+['Sejong',  {f: '38'},  false]
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+      }
+    </script>
+  </head>
+  <body>
+    <div id="table_div"></div>
+  </body>
+</html>
